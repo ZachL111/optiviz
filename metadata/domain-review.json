@@ -1,0 +1,73 @@
+{
+  "repo": "optiviz",
+  "language": "Julia",
+  "category": "Numerical computing",
+  "goal": "Compare descent, momentum, and coordinate search on fixture functions.",
+  "review_model": {
+    "terms": [
+      "step size",
+      "gradient drift",
+      "residual pressure",
+      "convergence"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "step size",
+      "signal": 79,
+      "slack": 34,
+      "drag": 13,
+      "confidence": 59,
+      "score": 212,
+      "lane": "ship"
+    },
+    {
+      "name": "stress",
+      "focus": "gradient drift",
+      "signal": 73,
+      "slack": 27,
+      "drag": 12,
+      "confidence": 73,
+      "score": 210,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "residual pressure",
+      "signal": 85,
+      "slack": 33,
+      "drag": 15,
+      "confidence": 52,
+      "score": 210,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "convergence",
+      "signal": 74,
+      "slack": 42,
+      "drag": 20,
+      "confidence": 46,
+      "score": 176,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "step size",
+      "signal": 55,
+      "slack": 32,
+      "drag": 9,
+      "confidence": 70,
+      "score": 185,
+      "lane": "ship"
+    }
+  ]
+}

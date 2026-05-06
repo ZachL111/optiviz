@@ -1,0 +1,6 @@
+name,focus,signal,slack,drag,confidence,score,lane
+baseline,step size,79,34,13,59,212,ship
+stress,gradient drift,73,27,12,73,210,ship
+edge,residual pressure,85,33,15,52,210,ship
+recovery,convergence,74,42,20,46,176,ship
+stale,step size,55,32,9,70,185,ship
