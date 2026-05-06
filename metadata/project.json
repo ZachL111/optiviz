@@ -1,0 +1,32 @@
+{
+  "index": 29,
+  "phase": 1,
+  "batch": 4,
+  "name": "optiviz",
+  "planned_name": "optiviz",
+  "language": "Julia",
+  "category": "Numerical computing",
+  "goal": "Compare descent, momentum, and coordinate search on fixture functions.",
+  "repository_url": "https://github.com/ZachL111/optiviz",
+  "verification_command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify.ps1",
+  "model": {
+    "inputs": [
+      "demand",
+      "capacity",
+      "latency",
+      "risk",
+      "weight"
+    ],
+    "threshold": 158,
+    "risk_penalty": 5,
+    "latency_penalty": 4,
+    "weight_bonus": 2,
+    "decision_rule": "accept when score is greater than or equal to threshold, otherwise review"
+  },
+  "quality_gates": [
+    "readme constraint scan",
+    "fixture presence check",
+    "metadata JSON parse",
+    "language verifier"
+  ]
+}
