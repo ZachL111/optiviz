@@ -1,0 +1,97 @@
+id,focus,signal,slack,drag,confidence,score,lane,kind,invariant
+g001,step size,68,67,16,77,300,ship,baseline,monotonic-signal
+g002,gradient drift,56,42,34,100,208,ship,edge,drag-penalty
+g003,residual pressure,97,32,44,22,213,ship,recovery,confidence-floor
+g004,convergence,33,65,30,82,156,watch,negative,lane-boundary
+g005,step size,49,49,24,73,197,ship,baseline,monotonic-signal
+g006,gradient drift,60,43,44,73,164,ship,edge,drag-penalty
+g007,residual pressure,113,8,13,35,343,ship,recovery,confidence-floor
+g008,convergence,99,28,20,20,285,ship,negative,lane-boundary
+g009,step size,96,40,25,103,356,ship,baseline,monotonic-signal
+g010,gradient drift,54,14,8,63,215,ship,edge,drag-penalty
+g011,residual pressure,80,38,43,48,197,ship,recovery,confidence-floor
+g012,convergence,53,18,20,88,205,ship,negative,lane-boundary
+g013,step size,87,45,4,26,320,ship,baseline,monotonic-signal
+g014,gradient drift,107,26,4,43,378,ship,edge,drag-penalty
+g015,residual pressure,77,19,5,99,334,ship,recovery,confidence-floor
+g016,convergence,109,18,7,45,369,ship,negative,lane-boundary
+g017,step size,85,55,31,23,240,ship,baseline,monotonic-signal
+g018,gradient drift,76,76,44,59,231,ship,edge,drag-penalty
+g019,residual pressure,75,54,31,39,225,ship,recovery,confidence-floor
+g020,convergence,34,11,5,76,174,ship,negative,lane-boundary
+g021,step size,105,62,36,99,368,ship,baseline,monotonic-signal
+g022,gradient drift,100,55,32,21,280,ship,edge,drag-penalty
+g023,residual pressure,57,19,10,81,241,ship,recovery,confidence-floor
+g024,convergence,39,73,43,72,133,watch,negative,lane-boundary
+g025,step size,78,8,19,72,257,ship,baseline,monotonic-signal
+g026,gradient drift,57,38,29,34,156,watch,edge,drag-penalty
+g027,residual pressure,94,55,15,105,397,ship,recovery,confidence-floor
+g028,convergence,116,31,9,102,454,ship,negative,lane-boundary
+g029,step size,42,57,29,62,158,watch,baseline,monotonic-signal
+g030,gradient drift,97,72,40,47,290,ship,edge,drag-penalty
+g031,residual pressure,40,47,5,87,239,ship,recovery,confidence-floor
+g032,convergence,109,37,10,25,359,ship,negative,lane-boundary
+g033,step size,97,70,35,42,298,ship,baseline,monotonic-signal
+g034,gradient drift,50,54,28,98,218,ship,edge,drag-penalty
+g035,residual pressure,74,48,5,44,299,ship,recovery,confidence-floor
+g036,convergence,90,13,31,22,212,ship,negative,lane-boundary
+g037,step size,101,33,31,58,301,ship,baseline,monotonic-signal
+g038,gradient drift,66,45,32,38,185,ship,edge,drag-penalty
+g039,residual pressure,52,19,34,75,148,watch,recovery,confidence-floor
+g040,convergence,49,43,16,98,240,ship,negative,lane-boundary
+g041,step size,95,23,29,20,241,ship,baseline,monotonic-signal
+g042,gradient drift,33,50,16,80,181,ship,edge,drag-penalty
+g043,residual pressure,94,31,32,71,288,ship,recovery,confidence-floor
+g044,convergence,40,24,21,71,152,watch,negative,lane-boundary
+g045,step size,60,23,17,33,185,ship,baseline,monotonic-signal
+g046,gradient drift,30,60,37,104,143,watch,edge,drag-penalty
+g047,residual pressure,62,11,28,101,214,ship,recovery,confidence-floor
+g048,convergence,38,59,4,61,222,ship,negative,lane-boundary
+g049,step size,117,16,14,46,371,ship,baseline,monotonic-signal
+g050,gradient drift,116,67,42,86,375,ship,edge,drag-penalty
+g051,residual pressure,75,60,36,24,201,ship,recovery,confidence-floor
+g052,convergence,58,24,14,41,197,ship,negative,lane-boundary
+g053,step size,53,8,25,97,189,ship,baseline,monotonic-signal
+g054,gradient drift,98,13,32,43,254,ship,edge,drag-penalty
+g055,residual pressure,80,43,37,21,193,ship,recovery,confidence-floor
+g056,convergence,31,60,20,57,150,watch,negative,lane-boundary
+g057,step size,98,36,13,37,328,ship,baseline,monotonic-signal
+g058,gradient drift,47,62,32,74,181,ship,edge,drag-penalty
+g059,residual pressure,69,77,16,97,333,ship,recovery,confidence-floor
+g060,convergence,83,52,16,105,358,ship,negative,lane-boundary
+g061,step size,50,42,17,79,220,ship,baseline,monotonic-signal
+g062,gradient drift,81,75,19,70,331,ship,edge,drag-penalty
+g063,residual pressure,62,59,43,70,186,ship,recovery,confidence-floor
+g064,convergence,50,53,14,32,193,ship,negative,lane-boundary
+g065,step size,91,18,43,103,265,ship,baseline,monotonic-signal
+g066,gradient drift,115,38,17,100,432,ship,edge,drag-penalty
+g067,residual pressure,43,50,6,60,221,ship,recovery,confidence-floor
+g068,convergence,54,24,44,45,99,hold,negative,lane-boundary
+g069,step size,107,48,22,85,388,ship,baseline,monotonic-signal
+g070,gradient drift,93,28,13,23,291,ship,edge,drag-penalty
+g071,residual pressure,90,55,31,40,272,ship,recovery,confidence-floor
+g072,convergence,48,36,41,96,153,watch,negative,lane-boundary
+g073,step size,74,29,27,42,212,ship,baseline,monotonic-signal
+g074,gradient drift,47,28,21,20,126,watch,edge,drag-penalty
+g075,residual pressure,81,65,41,56,241,ship,recovery,confidence-floor
+g076,convergence,101,16,10,36,325,ship,negative,lane-boundary
+g077,step size,71,64,17,73,299,ship,baseline,monotonic-signal
+g078,gradient drift,103,21,22,96,360,ship,edge,drag-penalty
+g079,residual pressure,79,72,5,104,398,ship,recovery,confidence-floor
+g080,convergence,70,65,40,78,233,ship,negative,lane-boundary
+g081,step size,69,29,17,69,254,ship,baseline,monotonic-signal
+g082,gradient drift,116,13,43,69,301,ship,edge,drag-penalty
+g083,residual pressure,99,18,43,31,217,ship,recovery,confidence-floor
+g084,convergence,94,48,44,102,300,ship,negative,lane-boundary
+g085,step size,51,65,4,99,305,ship,baseline,monotonic-signal
+g086,gradient drift,33,41,28,59,115,hold,edge,drag-penalty
+g087,residual pressure,72,67,41,44,204,ship,recovery,confidence-floor
+g088,convergence,51,12,28,84,165,ship,negative,lane-boundary
+g089,step size,88,57,44,22,211,ship,baseline,monotonic-signal
+g090,gradient drift,110,47,33,39,317,ship,edge,drag-penalty
+g091,residual pressure,36,10,29,95,126,watch,recovery,confidence-floor
+g092,convergence,91,64,7,41,357,ship,negative,lane-boundary
+g093,step size,34,58,40,105,145,watch,baseline,monotonic-signal
+g094,gradient drift,103,23,16,55,339,ship,edge,drag-penalty
+g095,residual pressure,91,43,26,35,273,ship,recovery,confidence-floor
+g096,convergence,44,55,12,72,223,ship,negative,lane-boundary

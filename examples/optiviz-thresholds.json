@@ -1,0 +1,17 @@
+{
+  "repo": "optiviz",
+  "thresholds": {
+    "signal": 3,
+    "slack": 1,
+    "confidence": 1,
+    "drag": 3,
+    "ship": 159,
+    "watch": 126
+  },
+  "terms": [
+    "step size",
+    "gradient drift",
+    "residual pressure",
+    "convergence"
+  ]
+}

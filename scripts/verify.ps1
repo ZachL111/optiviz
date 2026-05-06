@@ -63,3 +63,9 @@ julia --project=. tests/runtests.jl
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-optiviz-detail.ps1
 
 julia --project=. tests/domain_review.jl
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-optiviz-properties.ps1
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-optiviz-golden.ps1
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
